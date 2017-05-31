@@ -23,6 +23,12 @@
 		<?php wp_nav_menu($args); ?>
 
 	</nav>
+<table>
+<tr>
+<td><p style="color:purple;">Mall Timing Monday to Sunday 10 am to 10 pm. Kindly check individual stores for specific timing.</p></td>
+<td><p style="color:purple; text-align:right;">Powered by Afsha Mohammed</p></td>
+</tr>
+</table>
 <p style="text-align:center;"><?php bloginfo('name');?><strong>AR SHOPPING MALL - &copy</strong> <?php echo date('Y');?></p>
 	</footer><!-- #colophon -->
 <!-- #page -->
