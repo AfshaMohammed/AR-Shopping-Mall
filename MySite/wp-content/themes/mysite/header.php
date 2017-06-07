@@ -17,6 +17,12 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 
 <?php wp_head(); ?>
+<style>
+p{
+	text-align:right;
+	font-weight:bold;
+}
+</style>
 </head>
 
 <body <?php body_class(); ?>>
@@ -27,7 +33,7 @@
 		
 			<img src="<?php echo(get_template_directory_uri()); ?> /Images/Head.jpg" alt="Logo" width="250" height="50">
 			<?php
-			 echo "Today is " .Date("m/d/Y");
+			 echo "<p>Today is " .Date("m/d/Y")."</p>;
 			?>
 	</header><!-- #masthead -->
 	<nav style="background-color:#000000; padding:10px 18px;" class="site-nav">
