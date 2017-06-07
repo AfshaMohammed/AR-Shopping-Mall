@@ -26,6 +26,9 @@
 	<header style="background-color:white; text-align:center;" class="site-header">
 		
 			<img src="<?php echo(get_template_directory_uri()); ?> /Images/Head.jpg" alt="Logo" width="250" height="50">
+			<?php
+			 echo "Today is " .Date("m/d/Y");
+			?>
 	</header><!-- #masthead -->
 	<nav style="background-color:#000000; padding:10px 18px;" class="site-nav">
 		<?php
